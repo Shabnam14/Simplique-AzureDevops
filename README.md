@@ -55,3 +55,5 @@ c. On alert email receipt, trigger a pipeline to start the service
 ## Summary
 These strategies allow cost optimization without sacrificing performance or availability.
 
+I used Copilot
+https://copilot.microsoft.com/shares/eXsQu62xf2P2PatVifZYz
