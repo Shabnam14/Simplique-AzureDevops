@@ -37,6 +37,8 @@ c. On alert email receipt, trigger a pipeline to start the service
 - We then can use Azure Blob Storage to service the cold/old records, mostly 3 months older records. 
 - This will have no change in the existing read/write APIs for billing records, but an additional endpoint to look for older records using the key(Date Modified/Accessed) in the azure blob storage.
 
+![Alt text](Changefeed.png)
+
 #### Migration Steps
 - Configure **Azure Functions** to stream change feed data.
 - Then, store cold data (>3 months old) in Blob Storage.
@@ -52,4 +54,4 @@ c. On alert email receipt, trigger a pipeline to start the service
 
 ## Summary
 These strategies allow cost optimization without sacrificing performance or availability.
-  
+
